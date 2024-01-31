@@ -1,0 +1,139 @@
+.all-Header {
+    display: flex;
+}
+.icon-location {
+    width: 24px;
+    height: 24px;
+    margin-left: 30px;
+    margin-top: 23px;
+}
+
+.city-contry_name {
+    color: #fefefe;
+    margin-left: 34px;
+    margin-top: 2px;
+    margin-top: 25px;
+}
+
+form {
+    background-color: #1e1e1e;
+    width: 493px;
+    height: 40px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    margin-left: 90px;
+    margin-top: 20px;
+  }
+
+  input {
+    all: unset;
+    font: 16px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+  }
+
+  ::placeholder {
+    color: #fff;
+    opacity: 0.7; 
+  }
+
+  #img-search {
+    color: #fff;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+  }
+
+  button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .temperature-toggle {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-left: 520px;
+    margin-top: 20px;
+    
+  }
+  
+  .temperature-toggle input {
+    display: none;
+    
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #19191B; 
+    border-radius: 34px;
+    transition: 0.4s;
+    border: 1px solid #626161;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: '';
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #D8E9F9;
+    border-radius: 50%;
+    transition: 0.4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #19191B;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+  
+  .slider.celsius:before {
+    content: '°C';
+    font-size: 14px; 
+    line-height: 26px;
+  }
+  
+  
+  .slider.fahrenheit:before {
+    content: '°F';
+    font-size: 14px; 
+    line-height: 26px;
+  }
+  
+  .label {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+  }
+  
