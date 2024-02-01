@@ -19,7 +19,7 @@ function ToDay () {
                     <div className="one-text">Feelslike<div className="amounts">{"18°"}</div></div>
                     <div className="two-text">Pressure<div className="amounts">{"100MB"}</div></div>
                 </div>
-                <div className="two-text-cn">
+                <div className="two-text-cn"> 
                     <div className="three-text">Sunrise <div className="amounts">{"05:30"}</div></div>
                     <div className="four-text">Sunset<div className="amounts">{"18:45"}</div></div>
                 </div>
