@@ -14,7 +14,7 @@ function ToDay () {
             <img src={require("./image1.png")}  alt="icon temperature" className="image_today-box"/>
           </div>
 
-            <div className="texts_box-down">
+            <div className="texts_box-down"> 
                 <div className="two-text-first">
                     <div className="one-text">Feelslike<div className="amounts">{"18°"}</div></div>
                     <div className="two-text">Pressure<div className="amounts">{"100MB"}</div></div>

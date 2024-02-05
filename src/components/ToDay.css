@@ -68,7 +68,7 @@ border-radius: 0 0 25px 25px;
    height: 18px;
    color: #4f5658 ;
    margin-left: 15px;
-   margin-top: 10px;
+   /* margin-top: 10px;  */
 }
 
 .two-text{
@@ -76,7 +76,7 @@ border-radius: 0 0 25px 25px;
     width: 76px;
     height: 18px;
     color: #4f5658 ;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     margin-left: 15px;
 }
 
@@ -89,13 +89,13 @@ border-radius: 0 0 25px 25px;
 }
 
 .three-text  {
-    margin-top: 13px;
+    /* margin-top: 3px; */
     margin-left: 55px;
     display: flex;
     color: #4f5658 ;
 }
 .four-text {
-    margin-top: 4px;
+    margin-top: -3px;
     margin-left: 60px;
     display: flex;
     color: #4f5658 ;
