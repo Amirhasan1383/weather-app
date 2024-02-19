@@ -1,17 +1,20 @@
 import React from "react";
 import ToDay from "./ToDay";
 import Next5Day from "./Next5Day";
+import { useContext } from "react";
 
 
 
 
 
 function TopSection () {
-    
+
+    // const {} = useContext()
+
     return(
         <div style={{ display: 'flex' }}>
             <div style={{ flex: 1 }}>
-                <ToDay/>
+                <ToDay  />
             </div>
             <div style={{ flex: 1 }}>
                  <Next5Day/>
